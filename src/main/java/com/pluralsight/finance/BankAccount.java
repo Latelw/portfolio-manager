@@ -7,13 +7,13 @@ public class BankAccount implements Valuable{
     private String accountNumber;
     private BigDecimal balance;
 
-    public BankAccount(String name, BigDecimal balance, String accountNumber) {
+    public BankAccount(String name, String accountNumber, BigDecimal balance) {
         this.name = name;
         this.balance = balance;
         this.accountNumber = accountNumber;
     }
-    public void withdraw(){}
-    public void deposit(){}
+    public void withdraw(BigDecimal amount){}
+    public void deposit(BigDecimal amount){}
     public BigDecimal getValue(){
         return BigDecimal.ZERO;
     }

@@ -4,10 +4,10 @@ import java.math.BigDecimal;
 
 public class CreditCard implements Valuable {
     private String name;
-    private int accountNumber;
+    private String accountNumber;
     private int balance;
 
-    public CreditCard(int accountNumber, String name, int balance) {
+    public CreditCard(String accountNumber, String name, int balance) {
         this.accountNumber = accountNumber;
         this.name = name;
         this.balance = balance;
@@ -17,5 +17,4 @@ public class CreditCard implements Valuable {
     public BigDecimal getValue() {
         return BigDecimal.ZERO;
     }
-
 }
