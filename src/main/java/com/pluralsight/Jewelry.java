@@ -1,4 +1,4 @@
-package com.pluralsight.finance;
+package com.pluralsight;
 
 import java.math.BigDecimal;
 

@@ -1,8 +1,10 @@
-package com.pluralsight.finance;
+package com.pluralsight;
+
+import com.pluralsight.finance.Valuable;
 
 import java.math.BigDecimal;
 
-public abstract class FixedAsset implements Valuable{
+public abstract class FixedAsset implements Valuable {
     private String name;
 
     public FixedAsset(String name) {
